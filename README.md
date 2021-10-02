@@ -31,7 +31,7 @@ bundle install
 After the installation and configuration of the environment, access the end in the path of the folder where the file was downloaded
 
 ```bash
-cucumber features/specs/validation_number.feature
+cucumber
 ```
 
 ## Multi browser testing
@@ -43,7 +43,7 @@ The automation test is prepared to run in the following browsers (default: chrom
 - Firefox headless (firefox_headless)
 
 ```bash
-cucumber features/specs/validation_number.feature -p <browser_name>
+cucumber -p <browser_name>
 ```
 
 ## Test report
@@ -52,4 +52,3 @@ For easier understanding of the result and better visibility of the tests, the s
 
 Example of report:
 ![Test Report](test_report.png)
-
