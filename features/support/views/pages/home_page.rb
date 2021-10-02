@@ -5,8 +5,8 @@ class HomePage
         visit "http://qainterview.pythonanywhere.com/"
     end
 
-    def input_value(number)
-        find("#number").set number
+    def input_value(value)
+        find("#number").set value
     end
 
     def click
